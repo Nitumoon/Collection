@@ -43,6 +43,9 @@ public class Sample {
 
 		al.removeAll(a2);
 		System.out.println(al);
+		System.out.println(al.remove(1));
+		al.add(1, "Chanchu");
+		System.out.println(al);
 
 	}
 
